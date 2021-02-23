@@ -1,0 +1,27 @@
+.songrow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.songrow img {
+  height: 8vh;
+  width: 8vw;
+
+  object-fit: contain;
+}
+.song_details {
+  color: white;
+}
+.song_details h3 {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.song_details p {
+  color: gray;
+  margin-top: 0;
+}
+.songrow:hover {
+  background-color: black;
+  opacity: 0.8;
+}

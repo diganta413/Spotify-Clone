@@ -1,0 +1,32 @@
+.sidebar_body {
+  height: 100vh;
+  flex: 0.2;
+  background-color: black;
+}
+.sidebar_body img {
+  height: 80px;
+  margin-right: auto;
+  object-fit: contain;
+}
+.upper_part {
+  padding: 10px;
+}
+.middle {
+  color: gray;
+  padding: 10px;
+}
+.sidebar_title {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: gray;
+}
+hr {
+  border: 1px solid gray;
+  width: 80%;
+  margin: auto;
+}
+.sidebar_lower {
+  color: gray;
+  margin-left: 30px;
+}

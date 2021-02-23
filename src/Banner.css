@@ -1,0 +1,45 @@
+.main_banner {
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+}
+.banner img {
+  height: 250px;
+  width: 250px;
+}
+.banner_info {
+  margin-left: 20px;
+  color: white;
+}
+
+.banner_info h1 {
+  font-size: 50px;
+}
+.banner_icons {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.banner_icons .MuiSvgIcon-root {
+  font-size: 4rem;
+  padding: 5px;
+}
+.play {
+  color: #54e346;
+}
+.dot {
+  color: gray;
+}
+.dot:hover {
+  color: white;
+  transition: color 250ms;
+}
+.play:hover {
+  transform: scale(1.1);
+  transition: 250ms transform ease-in-out;
+}
+.banner img {
+  height: 300px;
+  width: 300px;
+}
